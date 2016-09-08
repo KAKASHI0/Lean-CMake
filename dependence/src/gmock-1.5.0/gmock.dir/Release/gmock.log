@@ -1,0 +1,171 @@
+﻿Build started 2014/10/21 18:21:43.
+     1>Project "E:\MengTaSanGuo\dependencies\src\gmock-1.5.0\gmock.vcxproj" on node 3 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "gmock.dir\Release\src_gmock-1.5.0.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include" /I"E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include" /I"E:/MengTaSanGuo/dependencies/src/gmock-1.5.0" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gmock.dir\Release\\" /Fd"E:/MengTaSanGuo/dependencies/lib/Release/gmock.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 "src\gmock-all.cc"
+         {{xgTaskID=00000005}}
+         gmock-all.cc
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(124): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(124): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'Tuple', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(124): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(127): error C2977: 'testing::internal::MatcherTuple' : too many template arguments
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(124) : see declaration of 'testing::internal::MatcherTuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(136): error C2977: 'testing::internal::MatcherTuple' : too many template arguments
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(132) : see declaration of 'testing::internal::MatcherTuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(133): error C2065: 'A1' : undeclared identifier
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(152) : see reference to class template instantiation 'testing::internal::Function<F>' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(133): error C2923: 'testing::Matcher' : 'A1' is not a valid template type argument for parameter 'T'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(133): error C2065: 'A2' : undeclared identifier
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(133): error C2923: 'testing::Matcher' : 'A2' is not a valid template type argument for parameter 'T'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(133): error C2065: 'A3' : undeclared identifier
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(133): error C2923: 'testing::Matcher' : 'A3' is not a valid template type argument for parameter 'T'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(133): error C2065: 'A4' : undeclared identifier
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(133): error C2923: 'testing::Matcher' : 'A4' is not a valid template type argument for parameter 'T'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(134): error C2065: 'A5' : undeclared identifier
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(134): error C2923: 'testing::Matcher' : 'A5' is not a valid template type argument for parameter 'T'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(134): error C2065: 'A6' : undeclared identifier
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(134): error C2923: 'testing::Matcher' : 'A6' is not a valid template type argument for parameter 'T'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(134): error C2065: 'A7' : undeclared identifier
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(134): error C2923: 'testing::Matcher' : 'A7' is not a valid template type argument for parameter 'T'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(134): error C2065: 'A8' : undeclared identifier
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(134): error C2923: 'testing::Matcher' : 'A8' is not a valid template type argument for parameter 'T'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(134): error C2065: 'A9' : undeclared identifier
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(134): error C2923: 'testing::Matcher' : 'A9' is not a valid template type argument for parameter 'T'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(135): error C2065: 'A10' : undeclared identifier
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(135): error C2923: 'testing::Matcher' : 'A10' is not a valid template type argument for parameter 'T'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(135): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(158): error C2146: syntax error : missing ';' before identifier 'ArgumentMatcherTuple'
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(161) : see reference to class template instantiation 'testing::internal::Function<R(void)>' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(158): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(252): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(257) : see reference to class template instantiation 'testing::internal::Function<R(A1,A2,A3,A4,A5,A6,A7,A8,A9)>' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(266): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/internal/gmock-generated-internal-utils.h(271) : see reference to class template instantiation 'testing::internal::Function<R(A1,A2,A3,A4,A5,A6,A7,A8,A9,A10)>' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4015): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4247) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4015): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4015): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4015): error C2955: 'testing::internal::ParamGeneratorInterface' : use of class template requires template argument list
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util.h(141) : see declaration of 'testing::internal::ParamGeneratorInterface'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4017): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4028): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4028): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4033): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4033): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4040): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4040) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator9<T1,T2,T3,T4,T5,T6,T7,T8,T9>::Iterator' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4040): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4040): error C2955: 'testing::internal::ParamIteratorInterface' : use of class template requires template argument list
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util.h(68) : see declaration of 'testing::internal::ParamIteratorInterface'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4042): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4042): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4075): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4075): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4117): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4117): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4121): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4121): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4202): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4202): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4254): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4503) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4254): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4254): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4254): error C2955: 'testing::internal::ParamGeneratorInterface' : use of class template requires template argument list
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util.h(141) : see declaration of 'testing::internal::ParamGeneratorInterface'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4256): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4268): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4268): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4273): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4273): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4280): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4280) : see reference to class template instantiation 'testing::internal::CartesianProductGenerator10<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10>::Iterator' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4280): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4280): error C2955: 'testing::internal::ParamIteratorInterface' : use of class template requires template argument list
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util.h(68) : see declaration of 'testing::internal::ParamIteratorInterface'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4282): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4282): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4318): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4318): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4364): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4364): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4368): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4368): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4454): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4454): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4736): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4764) : see reference to class template instantiation 'testing::internal::CartesianProductHolder9<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9>' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4736): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4736): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4780): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4811) : see reference to class template instantiation 'testing::internal::CartesianProductHolder10<Generator1,Generator2,Generator3,Generator4,Generator5,Generator6,Generator7,Generator8,Generator9,Generator10>' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4780): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'T', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/gtest/include\gtest/internal/gtest-param-util-generated.h(4780): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-printers.h(500): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-printers.h(508): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-actions.h(236): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-actions.h(236): error C3203: 'tuple' : unspecialized class template can't be used as a template argument for template parameter 'ArgumentTuple', expected a real type
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-actions.h(236): error C2955: 'std::tuple' : use of class template requires template argument list
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-actions.h(256): error C2977: 'testing::internal::InvokeHelper' : too many template arguments
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-actions.h(236) : see declaration of 'testing::internal::InvokeHelper'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-actions.h(283): error C2977: 'testing::internal::InvokeHelper' : too many template arguments
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-actions.h(262) : see declaration of 'testing::internal::InvokeHelper'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-actions.h(733): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-actions.h(751) : see reference to class template instantiation 'testing::internal::ActionHelper<Result,Impl>' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-actions.h(744): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-matchers.h(80): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-matchers.h(86) : see reference to class template instantiation 'testing::internal::TupleFields<Tuple,k0,k1,k2,k3,k4,k5,k6,k7,k8,k9>' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-matchers.h(81): error C2027: use of undefined type 'std::tuple'
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-matchers.h(208): error C2977: 'std::tuple' : too many template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+                 E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-matchers.h(214) : see reference to class template instantiation 'testing::internal::TupleFields<Tuple,k0,k1,k2,k3,k4,k5,k6,k7,k8,-1>' being compiled
+     1>E:/MengTaSanGuo/dependencies/src/gmock-1.5.0/include\gmock/gmock-generated-matchers.h(209): error C2027: use of undefined type 'std::tuple'
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(73) : see declaration of 'std::tuple'
+         {{xgTaskID=00000000}}
+     1>Done Building Project "E:\MengTaSanGuo\dependencies\src\gmock-1.5.0\gmock.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.16

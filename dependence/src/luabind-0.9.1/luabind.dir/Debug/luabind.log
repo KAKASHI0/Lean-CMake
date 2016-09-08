@@ -1,0 +1,89 @@
+﻿Build started 2014/10/21 18:32:29.
+     1>Project "E:\MengTaSanGuo\dependencies\src\luabind-0.9.1\luabind.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "luabind.dir\Debug\src_luabind-0.9.1.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "luabind.dir\Debug\src_luabind-0.9.1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:/MengTaSanGuo/dependencies/src/luabind-0.9.1" /I"E:/MengTaSanGuo/dependencies/src/lua-5.1.4/src" /IE:/MengTaSanGuo/dependencies/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"luabind.dir\Debug\\" /Fd"E:/MengTaSanGuo/dependencies/lib/Debug/luabind.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 src\class.cpp src\class_info.cpp src\class_registry.cpp src\class_rep.cpp src\create_class.cpp src\error.cpp src\exception_handler.cpp src\function.cpp src\inheritance.cpp src\link_compatibility.cpp src\object_rep.cpp src\open.cpp src\pcall.cpp src\scope.cpp src\stack_content_by_name.cpp src\weak_ref.cpp src\wrapper_base.cpp
+         {{xgTaskID=00000034}}
+         class.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000035}}
+         class_info.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000039}}
+         error.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000036}}
+         class_registry.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000003D}}
+         link_compatibility.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000003A}}
+         exception_handler.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000041}}
+         scope.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000040}}
+         pcall.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000003E}}
+         object_rep.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000003C}}
+         inheritance.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000043}}
+         weak_ref.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000037}}
+         class_rep.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000003B}}
+         function.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000038}}
+         create_class.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000044}}
+         wrapper_base.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000042}}
+         stack_content_by_name.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000003F}}
+         open.cpp
+         {{xgTaskID=00000000}}
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\MengTaSanGuo\dependencies\lib\Debug\luabind.lib" /NOLOGO luabind.dir\Debug\class.obj
+         luabind.dir\Debug\class_info.obj
+         luabind.dir\Debug\class_registry.obj
+         luabind.dir\Debug\class_rep.obj
+         luabind.dir\Debug\create_class.obj
+         luabind.dir\Debug\error.obj
+         luabind.dir\Debug\exception_handler.obj
+         luabind.dir\Debug\function.obj
+         luabind.dir\Debug\inheritance.obj
+         luabind.dir\Debug\link_compatibility.obj
+         luabind.dir\Debug\object_rep.obj
+         luabind.dir\Debug\open.obj
+         luabind.dir\Debug\pcall.obj
+         luabind.dir\Debug\scope.obj
+         luabind.dir\Debug\stack_content_by_name.obj
+         luabind.dir\Debug\weak_ref.obj
+         luabind.dir\Debug\wrapper_base.obj
+         {{xgTaskID=00000046}}
+         
+         {{xgTaskID=00000000}}
+         luabind.vcxproj -> E:\MengTaSanGuo\dependencies\lib\Debug\luabind.lib
+       FinalizeBuildStatus:
+         Deleting file "luabind.dir\Debug\src_luabind-0.9.1.unsuccessfulbuild".
+         Touching "luabind.dir\Debug\src_luabind-0.9.1.lastbuildstate".
+     1>Done Building Project "E:\MengTaSanGuo\dependencies\src\luabind-0.9.1\luabind.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.05

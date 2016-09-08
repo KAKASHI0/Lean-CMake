@@ -1,0 +1,79 @@
+﻿Build started 2013/7/10 15:09:28.
+     1>Project "E:\work\mobile\dependencies\src\zlib-1.2.8\zlib.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "zlib.dir\RelWithDebInfo\src_zlib-1.2.8.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/work/mobile/dependencies/src/zlib-1.2.8/include" /I"E:/work/mobile/dependencies/src/zlib-1.2.8" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _MBCS /Gm- /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"zlib.dir\RelWithDebInfo\\" /Fd"E:/work/mobile/dependencies/lib/RelWithDebInfo/zlib.pdb" /Gd /TC /analyze- /errorReport:prompt src\adler32.c src\compress.c src\crc32.c src\deflate.c src\gzclose.c src\gzlib.c src\gzread.c src\gzwrite.c src\inflate.c src\infback.c src\inftrees.c src\inffast.c src\trees.c src\uncompr.c src\zutil.c  /Zm1000 
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+     1>src\gzlib.c(193): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(533) : see declaration of 'wcstombs'
+     1>src\gzlib.c(208): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(533) : see declaration of 'wcstombs'
+     1>src\gzlib.c(214): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>src\gzlib.c(245): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(272) : see declaration of '_wopen'
+     1>src\gzlib.c(245): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(312) : see declaration of 'open'
+     1>src\gzlib.c(294): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+     1>src\gzlib.c(608): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
+         gzread.c
+     1>src\gzread.c(30): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(313) : see declaration of 'read'
+     1>src\gzread.c(36): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>src\gzread.c(591): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
+         gzwrite.c
+     1>src\gzwrite.c(84): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(318) : see declaration of 'write'
+     1>src\gzwrite.c(86): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>src\gzwrite.c(102): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(318) : see declaration of 'write'
+     1>src\gzwrite.c(103): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>src\gzwrite.c(357): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(354) : see declaration of 'vsnprintf'
+     1>src\gzwrite.c(573): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'close'
+         inflate.c
+         infback.c
+         inftrees.c
+         inffast.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\work\mobile\dependencies\lib\RelWithDebInfo\zlib.lib" /NOLOGO zlib.dir\RelWithDebInfo\adler32.obj
+         zlib.dir\RelWithDebInfo\compress.obj
+         zlib.dir\RelWithDebInfo\crc32.obj
+         zlib.dir\RelWithDebInfo\deflate.obj
+         zlib.dir\RelWithDebInfo\gzclose.obj
+         zlib.dir\RelWithDebInfo\gzlib.obj
+         zlib.dir\RelWithDebInfo\gzread.obj
+         zlib.dir\RelWithDebInfo\gzwrite.obj
+         zlib.dir\RelWithDebInfo\inflate.obj
+         zlib.dir\RelWithDebInfo\infback.obj
+         zlib.dir\RelWithDebInfo\inftrees.obj
+         zlib.dir\RelWithDebInfo\inffast.obj
+         zlib.dir\RelWithDebInfo\trees.obj
+         zlib.dir\RelWithDebInfo\uncompr.obj
+         zlib.dir\RelWithDebInfo\zutil.obj
+         zlib.vcxproj -> E:\work\mobile\dependencies\lib\RelWithDebInfo\zlib.lib
+       FinalizeBuildStatus:
+         Deleting file "zlib.dir\RelWithDebInfo\src_zlib-1.2.8.unsuccessfulbuild".
+         Touching "zlib.dir\RelWithDebInfo\src_zlib-1.2.8.lastbuildstate".
+     1>Done Building Project "E:\work\mobile\dependencies\src\zlib-1.2.8\zlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15

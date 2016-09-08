@@ -1,0 +1,113 @@
+﻿Build started 2014/10/21 18:32:23.
+     1>Project "E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\zlib.vcxproj" on node 3 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "zlib.dir\Debug\src_zlib-1.2.8.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "zlib.dir\Debug\src_zlib-1.2.8.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:/MengTaSanGuo/dependencies/src/zlib-1.2.8/include" /I"E:/MengTaSanGuo/dependencies/src/zlib-1.2.8" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"zlib.dir\Debug\\" /Fd"E:/MengTaSanGuo/dependencies/lib/Debug/zlib.pdb" /Gd /TC /analyze- /errorReport:prompt  /Zm1000 src\adler32.c src\compress.c src\crc32.c src\deflate.c src\gzclose.c src\gzlib.c src\gzread.c src\gzwrite.c src\inflate.c src\infback.c src\inftrees.c src\inffast.c src\trees.c src\uncompr.c src\zutil.c
+         {{xgTaskID=00000023}}
+         adler32.c
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000024}}
+         compress.c
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000025}}
+         crc32.c
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000026}}
+         deflate.c
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000027}}
+         gzclose.c
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000028}}
+         gzlib.c
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzlib.c(193): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(554) : see declaration of 'wcstombs'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzlib.c(208): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(554) : see declaration of 'wcstombs'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzlib.c(214): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(349) : see declaration of '_snprintf'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzlib.c(245): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(275) : see declaration of '_wopen'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzlib.c(245): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(315) : see declaration of 'open'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzlib.c(294): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(349) : see declaration of '_snprintf'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzlib.c(608): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(349) : see declaration of '_snprintf'
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000029}}
+         gzread.c
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzread.c(30): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(316) : see declaration of 'read'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzread.c(36): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(164) : see declaration of 'strerror'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzread.c(591): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(305) : see declaration of 'close'
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002A}}
+         gzwrite.c
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzwrite.c(84): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(321) : see declaration of 'write'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzwrite.c(86): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(164) : see declaration of 'strerror'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzwrite.c(102): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(321) : see declaration of 'write'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzwrite.c(103): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(164) : see declaration of 'strerror'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzwrite.c(357): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(340) : see declaration of 'vsnprintf'
+     1>E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\src\gzwrite.c(573): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(305) : see declaration of 'close'
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002B}}
+         inflate.c
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002C}}
+         infback.c
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002D}}
+         inftrees.c
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002E}}
+         inffast.c
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002F}}
+         trees.c
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000030}}
+         uncompr.c
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000031}}
+         zutil.c
+         {{xgTaskID=00000000}}
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\MengTaSanGuo\dependencies\lib\Debug\zlib.lib" /NOLOGO zlib.dir\Debug\adler32.obj
+         zlib.dir\Debug\compress.obj
+         zlib.dir\Debug\crc32.obj
+         zlib.dir\Debug\deflate.obj
+         zlib.dir\Debug\gzclose.obj
+         zlib.dir\Debug\gzlib.obj
+         zlib.dir\Debug\gzread.obj
+         zlib.dir\Debug\gzwrite.obj
+         zlib.dir\Debug\inflate.obj
+         zlib.dir\Debug\infback.obj
+         zlib.dir\Debug\inftrees.obj
+         zlib.dir\Debug\inffast.obj
+         zlib.dir\Debug\trees.obj
+         zlib.dir\Debug\uncompr.obj
+         zlib.dir\Debug\zutil.obj
+         {{xgTaskID=00000045}}
+         
+         {{xgTaskID=00000000}}
+         zlib.vcxproj -> E:\MengTaSanGuo\dependencies\lib\Debug\zlib.lib
+       FinalizeBuildStatus:
+         Deleting file "zlib.dir\Debug\src_zlib-1.2.8.unsuccessfulbuild".
+         Touching "zlib.dir\Debug\src_zlib-1.2.8.lastbuildstate".
+     1>Done Building Project "E:\MengTaSanGuo\dependencies\src\zlib-1.2.8\zlib.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.15

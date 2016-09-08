@@ -1,0 +1,18 @@
+﻿Build started 2013/7/10 15:14:33.
+     1>Project "E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\RelWithDebInfo\".
+       InitializeBuildStatus:
+         Creating "Win32\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/libmysql/CMakeFiles/generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Win32\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild".
+         Touching "Win32\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
+     1>Done Building Project "E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\ZERO_CHECK.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+E:/MengTaSanGuo/dependencies/src/mysql-connector-c-6.0.2/libmysql/CMakeLists.txt
+E:/MengTaSanGuo/dependencies/src/mysql-connector-c-6.0.2/win/mysql_manifest.cmake
+E:/MengTaSanGuo/dependencies/src/mysql-connector-c-6.0.2/extlib/zlib/CMakeLists.txt
+E:/MengTaSanGuo/dependencies/src/mysql-connector-c-6.0.2/extlib/dbug/CMakeLists.txt
+E:/MengTaSanGuo/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/CMakeLists.txt
+E:/MengTaSanGuo/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/CMakeLists.txt
+E:/MengTaSanGuo/dependencies/src/mysql-connector-c-6.0.2/include/my_config.h.in
+E:/MengTaSanGuo/dependencies/src/mysql-connector-c-6.0.2/mysys/CMakeLists.txt
+E:/MengTaSanGuo/dependencies/src/mysql-connector-c-6.0.2/strings/CMakeLists.txt
+E:/MengTaSanGuo/dependencies/src/mysql-connector-c-6.0.2/vio/CMakeLists.txt

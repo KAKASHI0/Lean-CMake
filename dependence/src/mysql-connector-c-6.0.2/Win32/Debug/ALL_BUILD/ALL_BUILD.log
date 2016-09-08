@@ -1,0 +1,16 @@
+﻿Build started 2014/10/21 18:26:31.
+     1>Project "E:\MengTaSanGuo\dependencies\src\mysql-connector-c-6.0.2\ALL_BUILD.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule E:/MengTaSanGuo/dependencies/src/mysql-connector-c-6.0.2/CMakeLists.txt
+         CMake does not need to re-run because E:\MengTaSanGuo\dependencies\src\mysql-connector-c-6.0.2\CMakeFiles\generate.stamp is up-to-date.
+         Build all projects
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild".
+         Touching "Win32\Debug\ALL_BUILD\ALL_BUILD.lastbuildstate".
+     1>Done Building Project "E:\MengTaSanGuo\dependencies\src\mysql-connector-c-6.0.2\ALL_BUILD.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28

@@ -1,0 +1,1240 @@
+﻿Build started 2013/7/10 15:14:33.
+     1>Project "E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\libmysql\libmysql.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "libmysql.dir\RelWithDebInfo\libmysql.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/libmysql/CMakeLists.txt
+         CMake does not need to re-run because E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\libmysql\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         Creating directory "E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\libmysql\libmysql.dir\RelWithDebInfo\__\extlib\yassl\taocrypt\src".
+         Creating directory "E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\libmysql\libmysql.dir\RelWithDebInfo\__\mysys".
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/libmysql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/regex" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/sql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/strings" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/zlib" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/dbug" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/mySTL" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/include" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D _WINDOWS /D __WIN__ /D _CRT_SECURE_NO_DEPRECATE /D HAVE_COMPRESS /D _LIB /D YASSL_PREFIX /D HAVE_YASSL /D YASSL_PURE_C /D HAVE_OPENSSL /D PTHREAD_STACK_MIN=1048576 /D HAVE_CONFIG_H /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _MBCS /Gm- /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libmysql.dir\RelWithDebInfo\\" /Fd"E:/work/mobile/dependencies/lib/RelWithDebInfo/libmysql.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt client.c errmsg.c get_password.c libmysql.c my_time.c net_serv.c pack.c password.c ..\extlib\zlib\adler32.c ..\extlib\zlib\compress.c ..\extlib\zlib\crc32.c ..\extlib\zlib\deflate.c ..\extlib\zlib\gzio.c ..\extlib\zlib\infback.c ..\extlib\zlib\inffast.c ..\extlib\zlib\inflate.c ..\extlib\zlib\inftrees.c ..\extlib\zlib\trees.c ..\extlib\zlib\uncompr.c ..\extlib\zlib\zutil.c ..\extlib\dbug\dbug.c ..\extlib\dbug\factorial.c ..\extlib\dbug\sanity.c ..\mysys\array.c "..\mysys\charset-def.c" ..\mysys\charset.c ..\mysys\checksum.c ..\mysys\default.c ..\mysys\default_modify.c ..\mysys\errors.c ..\mysys\list.c ..\mysys\mf_brkhant.c ..\mysys\mf_cache.c ..\mysys\mf_dirname.c ..\mysys\mf_fn_ext.c ..\mysys\mf_format.c ..\mysys\mf_getdate.c ..\mysys\mf_iocache.c ..\mysys\mf_iocache2.c ..\mysys\mf_keycache.c ..\mysys\my_safehash.c ..\mysys\mf_keycaches.c ..\mysys\mf_loadpath.c ..\mysys\mf_pack.c ..\mysys\mf_path.c ..\mysys\mf_qsort.c ..\mysys\mf_qsort2.c ..\mysys\mf_radix.c ..\mysys\mf_same.c ..\mysys\mf_sort.c ..\mysys\mf_soundex.c ..\mysys\mf_strip.c ..\mysys\mf_arr_appstr.c ..\mysys\mf_tempdir.c ..\mysys\mf_tempfile.c ..\mysys\mf_unixpath.c ..\mysys\mf_wcomp.c ..\mysys\mf_wfile.c ..\mysys\mulalloc.c ..\mysys\my_access.c ..\mysys\my_aes.c ..\mysys\my_alarm.c ..\mysys\my_alloc.c ..\mysys\my_append.c ..\mysys\my_bit.c ..\mysys\my_bitmap.c ..\mysys\my_chmod.c ..\mysys\my_chsize.c ..\mysys\my_clock.c ..\mysys\my_compress.c ..\mysys\my_conio.c ..\mysys\my_copy.c ..\mysys\my_create.c ..\mysys\my_delete.c ..\mysys\my_div.c ..\mysys\my_error.c ..\mysys\my_file.c ..\mysys\my_fopen.c ..\mysys\my_fstream.c ..\mysys\my_gethostbyname.c ..\mysys\my_gethwaddr.c ..\mysys\my_getopt.c ..\mysys\my_getsystime.c ..\mysys\my_getwd.c ..\mysys\my_init.c ..\mysys\my_lib.c ..\mysys\my_lock.c ..\mysys\my_lockmem.c ..\mysys\my_malloc.c ..\mysys\my_messnc.c ..\mysys\my_dup.c ..\mysys\my_mkdir.c ..\mysys\my_mmap.c ..\mysys\my_net.c ..\mysys\my_once.c ..\mysys\my_open.c ..\mysys\my_pread.c ..\mysys\my_pthread.c ..\mysys\my_quick.c ..\mysys\my_read.c ..\mysys\my_realloc.c ..\mysys\my_redel.c ..\mysys\my_rename.c ..\mysys\my_seek.c ..\mysys\my_sleep.c ..\mysys\my_static.c ..\mysys\my_symlink.c ..\mysys\my_symlink2.c ..\mysys\my_sync.c ..\mysys\my_thr_init.c ..\mysys\my_wincond.c ..\mysys\my_winerr.c ..\mysys\my_winfile.c ..\mysys\my_windac.c ..\mysys\my_winthread.c ..\mysys\my_write.c ..\mysys\ptr_cmp.c ..\mysys\queues.c ..\mysys\stacktrace.c ..\mysys\rijndael.c ..\mysys\safemalloc.c ..\mysys\sha1.c ..\mysys\string.c ..\mysys\thr_alarm.c ..\mysys\thr_lock.c ..\mysys\thr_mutex.c ..\mysys\thr_rwlock.c ..\mysys\tree.c ..\mysys\typelib.c ..\mysys\my_vle.c ..\mysys\base64.c ..\mysys\my_memmem.c ..\mysys\my_getpagesize.c "..\mysys\lf_alloc-pin.c" ..\mysys\lf_dynarray.c ..\mysys\lf_hash.c ..\mysys\my_atomic.c ..\mysys\my_getncpus.c ..\mysys\my_rnd.c ..\mysys\my_uuid.c ..\mysys\wqueue.c ..\mysys\waiting_threads.c ..\mysys\my_port.c ..\strings\bchange.c ..\strings\bcmp.c ..\strings\bfill.c ..\strings\bmove512.c ..\strings\bmove_upp.c "..\strings\ctype-big5.c" "..\strings\ctype-bin.c" "..\strings\ctype-cp932.c" "..\strings\ctype-czech.c" "..\strings\ctype-euc_kr.c" "..\strings\ctype-eucjpms.c" "..\strings\ctype-extra.c" "..\strings\ctype-gb2312.c" "..\strings\ctype-gbk.c" "..\strings\ctype-latin1.c" "..\strings\ctype-mb.c" "..\strings\ctype-simple.c" "..\strings\ctype-sjis.c" "..\strings\ctype-tis620.c" "..\strings\ctype-uca.c" "..\strings\ctype-ucs2.c" "..\strings\ctype-ujis.c" "..\strings\ctype-utf8.c" "..\strings\ctype-win1250ch.c" ..\strings\ctype.c ..\strings\decimal.c ..\strings\dtoa.c ..\strings\int2str.c ..\strings\is_prefix.c ..\strings\llstr.c ..\strings\longlong2str.c ..\strings\my_strtoll10.c ..\strings\my_vsnprintf.c ..\strings\r_strinstr.c ..\strings\str2int.c ..\strings\str_alloc.c ..\strings\strcend.c ..\strings\strend.c ..\strings\strfill.c ..\strings\strmake.c ..\strings\strmov.c ..\strings\strnmov.c ..\strings\strtol.c ..\strings\strtoll.c ..\strings\strtoul.c ..\strings\strtoull.c ..\strings\strxmov.c ..\strings\strxnmov.c ..\strings\xml.c ..\strings\my_strchr.c ..\strings\strcont.c ..\strings\strinstr.c ..\strings\strnlen.c ..\strings\strappend.c ..\vio\vio.c ..\vio\viosocket.c ..\vio\viossl.c ..\vio\viosslfactories.c  /Zm1000 
+         client.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         errmsg.c
+     1>errmsg.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         get_password.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         libmysql.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_time.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         net_serv.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         pack.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         password.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzio.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+         Compiling...
+         dbug.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         factorial.c
+         sanity.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         array.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         charset-def.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         charset.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         checksum.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(10): warning C4005: 'HAVE_FLOAT_H' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(299) : see previous definition of 'HAVE_FLOAT_H'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(14): warning C4005: 'HAVE_LIMITS_H' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(300) : see previous definition of 'HAVE_LIMITS_H'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(22): warning C4005: 'HAVE_STDDEF_H' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(301) : see previous definition of 'HAVE_STDDEF_H'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(70): warning C4005: 'HAVE_GETCWD' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(292) : see previous definition of 'HAVE_GETCWD'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(86): warning C4005: 'HAVE_LDIV' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(334) : see previous definition of 'HAVE_LDIV'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(94): warning C4005: 'HAVE_MEMCPY' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(290) : see previous definition of 'HAVE_MEMCPY'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(96): warning C4005: 'HAVE_MEMMOVE' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(291) : see previous definition of 'HAVE_MEMMOVE'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(103): warning C4005: 'HAVE_PERROR' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(282) : see previous definition of 'HAVE_PERROR'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(126): warning C4005: 'HAVE_RENAME' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(284) : see previous definition of 'HAVE_RENAME'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(140): warning C4005: 'HAVE_STRNLEN' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(316) : see previous definition of 'HAVE_STRNLEN'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(141): warning C4005: 'HAVE_STRPBRK' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(304) : see previous definition of 'HAVE_STRPBRK'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(143): warning C4005: 'HAVE_STRSTR' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(305) : see previous definition of 'HAVE_STRSTR'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(148): warning C4005: 'HAVE_STRTOUL' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(337) : see previous definition of 'HAVE_STRTOUL'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(150): warning C4005: 'HAVE_TELL' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(293) : see previous definition of 'HAVE_TELL'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(195): warning C4005: 'SIZEOF_OFF_T' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(203) : see previous definition of 'SIZEOF_OFF_T'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(273): warning C4005: 'QSORT_TYPE_IS_VOID' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(186) : see previous definition of 'QSORT_TYPE_IS_VOID'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(284): warning C4005: 'inline' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(245) : see previous definition of 'inline'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(292): warning C4005: 'THREAD' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(196) : see previous definition of 'THREAD'
+         default.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         default_modify.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         errors.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         list.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_brkhant.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_cache.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_dirname.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_fn_ext.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_format.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_getdate.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_iocache.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_iocache2.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_keycache.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         Generating Code...
+         Compiling...
+         my_safehash.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_keycaches.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_loadpath.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_pack.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_path.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_qsort.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_qsort2.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_radix.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_same.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_sort.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_soundex.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_strip.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_arr_appstr.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_tempdir.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_tempfile.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_unixpath.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_wcomp.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mf_wfile.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         mulalloc.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_access.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         Generating Code...
+         Compiling...
+         my_aes.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         my_alarm.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_alloc.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_append.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_bit.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         my_bitmap.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_chmod.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_chsize.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_clock.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         my_compress.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(10): warning C4005: 'HAVE_FLOAT_H' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(299) : see previous definition of 'HAVE_FLOAT_H'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(14): warning C4005: 'HAVE_LIMITS_H' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(300) : see previous definition of 'HAVE_LIMITS_H'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(22): warning C4005: 'HAVE_STDDEF_H' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(301) : see previous definition of 'HAVE_STDDEF_H'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(70): warning C4005: 'HAVE_GETCWD' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(292) : see previous definition of 'HAVE_GETCWD'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(86): warning C4005: 'HAVE_LDIV' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(334) : see previous definition of 'HAVE_LDIV'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(94): warning C4005: 'HAVE_MEMCPY' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(290) : see previous definition of 'HAVE_MEMCPY'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(96): warning C4005: 'HAVE_MEMMOVE' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(291) : see previous definition of 'HAVE_MEMMOVE'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(103): warning C4005: 'HAVE_PERROR' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(282) : see previous definition of 'HAVE_PERROR'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(126): warning C4005: 'HAVE_RENAME' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(284) : see previous definition of 'HAVE_RENAME'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(140): warning C4005: 'HAVE_STRNLEN' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(316) : see previous definition of 'HAVE_STRNLEN'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(141): warning C4005: 'HAVE_STRPBRK' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(304) : see previous definition of 'HAVE_STRPBRK'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(143): warning C4005: 'HAVE_STRSTR' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(305) : see previous definition of 'HAVE_STRSTR'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(148): warning C4005: 'HAVE_STRTOUL' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(337) : see previous definition of 'HAVE_STRTOUL'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(150): warning C4005: 'HAVE_TELL' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(293) : see previous definition of 'HAVE_TELL'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(195): warning C4005: 'SIZEOF_OFF_T' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(203) : see previous definition of 'SIZEOF_OFF_T'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(273): warning C4005: 'QSORT_TYPE_IS_VOID' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(186) : see previous definition of 'QSORT_TYPE_IS_VOID'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(284): warning C4005: 'inline' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(245) : see previous definition of 'inline'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\extlib\yassl\include\config.h(292): warning C4005: 'THREAD' : macro redefinition
+                 E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(196) : see previous definition of 'THREAD'
+         my_conio.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_copy.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_create.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_delete.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_div.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_error.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_file.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_fopen.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_fstream.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_gethostbyname.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         Generating Code...
+         Compiling...
+         my_gethwaddr.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_getopt.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_getsystime.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_getwd.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_init.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_lib.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_lock.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_lockmem.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_malloc.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_messnc.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_dup.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_mkdir.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_mmap.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_net.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_once.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_open.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_pread.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_pthread.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_quick.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_read.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         Generating Code...
+         Compiling...
+         my_realloc.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_redel.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_rename.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_seek.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_sleep.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_static.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_symlink.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_symlink2.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_sync.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_thr_init.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_wincond.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_winerr.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_winfile.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_windac.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_winthread.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_write.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         ptr_cmp.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         queues.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         stacktrace.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         rijndael.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         Generating Code...
+         Compiling...
+         safemalloc.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         sha1.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         string.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         thr_alarm.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         thr_lock.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         thr_mutex.c
+     1>..\mysys\thr_mutex.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         thr_rwlock.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         tree.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         typelib.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_vle.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         base64.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         my_memmem.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         my_getpagesize.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         lf_alloc-pin.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         lf_dynarray.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         lf_hash.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_atomic.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_getncpus.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_rnd.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_uuid.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         Generating Code...
+         Compiling...
+         wqueue.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         waiting_threads.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_port.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         bchange.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         bcmp.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         bfill.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         bmove512.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         bmove_upp.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-big5.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-bin.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-cp932.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-czech.c
+     1>..\strings\ctype-czech.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-euc_kr.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-eucjpms.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-extra.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-gb2312.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-gbk.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-latin1.c
+     1>..\strings\ctype-latin1.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-mb.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-simple.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         Generating Code...
+         Compiling...
+         ctype-sjis.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-tis620.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         ctype-uca.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-ucs2.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         ctype-ujis.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-utf8.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype-win1250ch.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         ctype.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         decimal.c
+     1>..\strings\decimal.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         dtoa.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         int2str.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         is_prefix.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         llstr.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         longlong2str.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         my_strtoll10.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         my_vsnprintf.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         r_strinstr.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         str2int.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         str_alloc.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strcend.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         Generating Code...
+         Compiling...
+         strend.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strfill.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strmake.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strmov.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strnmov.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strtol.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strtoll.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         strtoul.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strtoull.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         strxmov.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strxnmov.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         xml.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         my_strchr.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strcont.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strinstr.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strnlen.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         strappend.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+         vio.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         viosocket.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         viossl.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         Generating Code...
+         Compiling...
+         viosslfactories.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         Generating Code...
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/libmysql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/regex" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/sql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/strings" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/zlib" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/dbug" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/mySTL" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/include" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D _WINDOWS /D __WIN__ /D _CRT_SECURE_NO_DEPRECATE /D HAVE_COMPRESS /D _LIB /D YASSL_PREFIX /D HAVE_YASSL /D YASSL_PURE_C /D HAVE_OPENSSL /D PTHREAD_STACK_MIN=1048576 /D HAVE_CONFIG_H /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _MBCS /Gm- /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libmysql.dir\RelWithDebInfo\\" /Fd"E:/work/mobile/dependencies/lib/RelWithDebInfo/libmysql.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt ..\extlib\yassl\taocrypt\src\aes.cpp ..\extlib\yassl\taocrypt\src\aestables.cpp ..\extlib\yassl\taocrypt\src\algebra.cpp ..\extlib\yassl\taocrypt\src\arc4.cpp ..\extlib\yassl\taocrypt\src\asn.cpp ..\extlib\yassl\taocrypt\src\coding.cpp ..\extlib\yassl\taocrypt\src\des.cpp ..\extlib\yassl\taocrypt\src\dh.cpp ..\extlib\yassl\taocrypt\src\dsa.cpp ..\extlib\yassl\taocrypt\src\file.cpp ..\extlib\yassl\taocrypt\src\integer.cpp ..\extlib\yassl\taocrypt\src\md2.cpp ..\extlib\yassl\taocrypt\src\md4.cpp ..\extlib\yassl\taocrypt\src\misc.cpp ..\extlib\yassl\taocrypt\src\random.cpp ..\extlib\yassl\taocrypt\src\ripemd.cpp ..\extlib\yassl\taocrypt\src\rsa.cpp ..\extlib\yassl\taocrypt\src\sha.cpp ..\extlib\yassl\src\buffer.cpp ..\extlib\yassl\src\cert_wrapper.cpp ..\extlib\yassl\src\crypto_wrapper.cpp ..\extlib\yassl\src\handshake.cpp ..\extlib\yassl\src\lock.cpp ..\extlib\yassl\src\log.cpp ..\extlib\yassl\src\socket_wrapper.cpp ..\extlib\yassl\src\ssl.cpp ..\extlib\yassl\src\timer.cpp ..\extlib\yassl\src\yassl_error.cpp ..\extlib\yassl\src\yassl_imp.cpp ..\extlib\yassl\src\yassl_int.cpp  /Zm1000 
+         aes.cpp
+         aestables.cpp
+         algebra.cpp
+         arc4.cpp
+         asn.cpp
+         coding.cpp
+         des.cpp
+         dh.cpp
+         dsa.cpp
+         file.cpp
+         integer.cpp
+         md2.cpp
+         md4.cpp
+         misc.cpp
+         random.cpp
+         ripemd.cpp
+         rsa.cpp
+         sha.cpp
+         buffer.cpp
+         cert_wrapper.cpp
+         Generating Code...
+         Compiling...
+         crypto_wrapper.cpp
+         handshake.cpp
+         lock.cpp
+         log.cpp
+         socket_wrapper.cpp
+         ssl.cpp
+         timer.cpp
+         yassl_error.cpp
+         yassl_imp.cpp
+         yassl_int.cpp
+         Generating Code...
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/libmysql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/regex" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/sql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/strings" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/zlib" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/dbug" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/mySTL" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/include" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D _WINDOWS /D __WIN__ /D _CRT_SECURE_NO_DEPRECATE /D HAVE_COMPRESS /D _LIB /D YASSL_PREFIX /D HAVE_YASSL /D YASSL_PURE_C /D HAVE_OPENSSL /D PTHREAD_STACK_MIN=1048576 /D HAVE_CONFIG_H /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _MBCS /Gm- /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libmysql.dir\RelWithDebInfo\/__/extlib/yassl/taocrypt/src/hash.cpp.obj" /Fd"E:/work/mobile/dependencies/lib/RelWithDebInfo/libmysql.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt ..\extlib\yassl\taocrypt\src\hash.cpp  /Zm1000 
+         hash.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/libmysql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/regex" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/sql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/strings" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/zlib" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/dbug" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/mySTL" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/include" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D _WINDOWS /D __WIN__ /D _CRT_SECURE_NO_DEPRECATE /D HAVE_COMPRESS /D _LIB /D YASSL_PREFIX /D HAVE_YASSL /D YASSL_PURE_C /D HAVE_OPENSSL /D PTHREAD_STACK_MIN=1048576 /D HAVE_CONFIG_H /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _MBCS /Gm- /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libmysql.dir\RelWithDebInfo\/__/extlib/yassl/taocrypt/src/md5.cpp.obj" /Fd"E:/work/mobile/dependencies/lib/RelWithDebInfo/libmysql.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt ..\extlib\yassl\taocrypt\src\md5.cpp  /Zm1000 
+         md5.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/libmysql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/regex" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/sql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/strings" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/zlib" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/dbug" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/mySTL" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/include" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D _WINDOWS /D __WIN__ /D _CRT_SECURE_NO_DEPRECATE /D HAVE_COMPRESS /D _LIB /D YASSL_PREFIX /D HAVE_YASSL /D YASSL_PURE_C /D HAVE_OPENSSL /D PTHREAD_STACK_MIN=1048576 /D HAVE_CONFIG_H /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _MBCS /Gm- /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libmysql.dir\RelWithDebInfo\/__/mysys/hash.c.obj" /Fd"E:/work/mobile/dependencies/lib/RelWithDebInfo/libmysql.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt ..\mysys\hash.c  /Zm1000 
+         hash.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\my_pthread.h(121): warning C4005: 'ETIMEDOUT' : macro redefinition
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h(130) : see previous definition of 'ETIMEDOUT'
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/libmysql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/regex" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/sql" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/strings" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/zlib" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/dbug" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/mySTL" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/taocrypt/include" /I"E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/extlib/yassl/include" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D _WINDOWS /D __WIN__ /D _CRT_SECURE_NO_DEPRECATE /D HAVE_COMPRESS /D _LIB /D YASSL_PREFIX /D HAVE_YASSL /D YASSL_PURE_C /D HAVE_OPENSSL /D PTHREAD_STACK_MIN=1048576 /D HAVE_CONFIG_H /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _MBCS /Gm- /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libmysql.dir\RelWithDebInfo\/__/mysys/md5.c.obj" /Fd"E:/work/mobile/dependencies/lib/RelWithDebInfo/libmysql.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt ..\mysys\md5.c  /Zm1000 
+         md5.c
+     1>E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\include\config-win.h(306): warning C4005: 'HAVE_COMPRESS' : macro redefinition
+                 command-line arguments :  see previous definition of 'HAVE_COMPRESS'
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\work\mobile\dependencies\lib\RelWithDebInfo\libmysql.lib" /NOLOGO libmysql.dir\RelWithDebInfo\client.obj
+         libmysql.dir\RelWithDebInfo\errmsg.obj
+         libmysql.dir\RelWithDebInfo\get_password.obj
+         libmysql.dir\RelWithDebInfo\libmysql.obj
+         libmysql.dir\RelWithDebInfo\my_time.obj
+         libmysql.dir\RelWithDebInfo\net_serv.obj
+         libmysql.dir\RelWithDebInfo\pack.obj
+         libmysql.dir\RelWithDebInfo\password.obj
+         libmysql.dir\RelWithDebInfo\adler32.obj
+         libmysql.dir\RelWithDebInfo\compress.obj
+         libmysql.dir\RelWithDebInfo\crc32.obj
+         libmysql.dir\RelWithDebInfo\deflate.obj
+         libmysql.dir\RelWithDebInfo\gzio.obj
+         libmysql.dir\RelWithDebInfo\infback.obj
+         libmysql.dir\RelWithDebInfo\inffast.obj
+         libmysql.dir\RelWithDebInfo\inflate.obj
+         libmysql.dir\RelWithDebInfo\inftrees.obj
+         libmysql.dir\RelWithDebInfo\trees.obj
+         libmysql.dir\RelWithDebInfo\uncompr.obj
+         libmysql.dir\RelWithDebInfo\zutil.obj
+         libmysql.dir\RelWithDebInfo\dbug.obj
+         libmysql.dir\RelWithDebInfo\factorial.obj
+         libmysql.dir\RelWithDebInfo\sanity.obj
+         libmysql.dir\RelWithDebInfo\aes.obj
+         libmysql.dir\RelWithDebInfo\aestables.obj
+         libmysql.dir\RelWithDebInfo\algebra.obj
+         libmysql.dir\RelWithDebInfo\arc4.obj
+         libmysql.dir\RelWithDebInfo\asn.obj
+         libmysql.dir\RelWithDebInfo\coding.obj
+         libmysql.dir\RelWithDebInfo\des.obj
+         libmysql.dir\RelWithDebInfo\dh.obj
+         libmysql.dir\RelWithDebInfo\dsa.obj
+         libmysql.dir\RelWithDebInfo\file.obj
+         libmysql.dir\RelWithDebInfo\integer.obj
+         libmysql.dir\RelWithDebInfo\md2.obj
+         libmysql.dir\RelWithDebInfo\md4.obj
+         libmysql.dir\RelWithDebInfo\misc.obj
+         libmysql.dir\RelWithDebInfo\random.obj
+         libmysql.dir\RelWithDebInfo\ripemd.obj
+         libmysql.dir\RelWithDebInfo\rsa.obj
+         libmysql.dir\RelWithDebInfo\sha.obj
+         libmysql.dir\RelWithDebInfo\buffer.obj
+         libmysql.dir\RelWithDebInfo\cert_wrapper.obj
+         libmysql.dir\RelWithDebInfo\crypto_wrapper.obj
+         libmysql.dir\RelWithDebInfo\handshake.obj
+         libmysql.dir\RelWithDebInfo\lock.obj
+         libmysql.dir\RelWithDebInfo\log.obj
+         libmysql.dir\RelWithDebInfo\socket_wrapper.obj
+         libmysql.dir\RelWithDebInfo\ssl.obj
+         libmysql.dir\RelWithDebInfo\timer.obj
+         libmysql.dir\RelWithDebInfo\yassl_error.obj
+         libmysql.dir\RelWithDebInfo\yassl_imp.obj
+         libmysql.dir\RelWithDebInfo\yassl_int.obj
+         libmysql.dir\RelWithDebInfo\array.obj
+         "libmysql.dir\RelWithDebInfo\charset-def.obj"
+         libmysql.dir\RelWithDebInfo\charset.obj
+         libmysql.dir\RelWithDebInfo\checksum.obj
+         libmysql.dir\RelWithDebInfo\default.obj
+         libmysql.dir\RelWithDebInfo\default_modify.obj
+         libmysql.dir\RelWithDebInfo\errors.obj
+         libmysql.dir\RelWithDebInfo\list.obj
+         libmysql.dir\RelWithDebInfo\mf_brkhant.obj
+         libmysql.dir\RelWithDebInfo\mf_cache.obj
+         libmysql.dir\RelWithDebInfo\mf_dirname.obj
+         libmysql.dir\RelWithDebInfo\mf_fn_ext.obj
+         libmysql.dir\RelWithDebInfo\mf_format.obj
+         libmysql.dir\RelWithDebInfo\mf_getdate.obj
+         libmysql.dir\RelWithDebInfo\mf_iocache.obj
+         libmysql.dir\RelWithDebInfo\mf_iocache2.obj
+         libmysql.dir\RelWithDebInfo\mf_keycache.obj
+         libmysql.dir\RelWithDebInfo\my_safehash.obj
+         libmysql.dir\RelWithDebInfo\mf_keycaches.obj
+         libmysql.dir\RelWithDebInfo\mf_loadpath.obj
+         libmysql.dir\RelWithDebInfo\mf_pack.obj
+         libmysql.dir\RelWithDebInfo\mf_path.obj
+         libmysql.dir\RelWithDebInfo\mf_qsort.obj
+         libmysql.dir\RelWithDebInfo\mf_qsort2.obj
+         libmysql.dir\RelWithDebInfo\mf_radix.obj
+         libmysql.dir\RelWithDebInfo\mf_same.obj
+         libmysql.dir\RelWithDebInfo\mf_sort.obj
+         libmysql.dir\RelWithDebInfo\mf_soundex.obj
+         libmysql.dir\RelWithDebInfo\mf_strip.obj
+         libmysql.dir\RelWithDebInfo\mf_arr_appstr.obj
+         libmysql.dir\RelWithDebInfo\mf_tempdir.obj
+         libmysql.dir\RelWithDebInfo\mf_tempfile.obj
+         libmysql.dir\RelWithDebInfo\mf_unixpath.obj
+         libmysql.dir\RelWithDebInfo\mf_wcomp.obj
+         libmysql.dir\RelWithDebInfo\mf_wfile.obj
+         libmysql.dir\RelWithDebInfo\mulalloc.obj
+         libmysql.dir\RelWithDebInfo\my_access.obj
+         libmysql.dir\RelWithDebInfo\my_aes.obj
+         libmysql.dir\RelWithDebInfo\my_alarm.obj
+         libmysql.dir\RelWithDebInfo\my_alloc.obj
+         libmysql.dir\RelWithDebInfo\my_append.obj
+         libmysql.dir\RelWithDebInfo\my_bit.obj
+         libmysql.dir\RelWithDebInfo\my_bitmap.obj
+         libmysql.dir\RelWithDebInfo\my_chmod.obj
+         libmysql.dir\RelWithDebInfo\my_chsize.obj
+         libmysql.dir\RelWithDebInfo\my_clock.obj
+         libmysql.dir\RelWithDebInfo\my_compress.obj
+         libmysql.dir\RelWithDebInfo\my_conio.obj
+         libmysql.dir\RelWithDebInfo\my_copy.obj
+         libmysql.dir\RelWithDebInfo\my_create.obj
+         libmysql.dir\RelWithDebInfo\my_delete.obj
+         libmysql.dir\RelWithDebInfo\my_div.obj
+         libmysql.dir\RelWithDebInfo\my_error.obj
+         libmysql.dir\RelWithDebInfo\my_file.obj
+         libmysql.dir\RelWithDebInfo\my_fopen.obj
+         libmysql.dir\RelWithDebInfo\my_fstream.obj
+         libmysql.dir\RelWithDebInfo\my_gethostbyname.obj
+         libmysql.dir\RelWithDebInfo\my_gethwaddr.obj
+         libmysql.dir\RelWithDebInfo\my_getopt.obj
+         libmysql.dir\RelWithDebInfo\my_getsystime.obj
+         libmysql.dir\RelWithDebInfo\my_getwd.obj
+         libmysql.dir\RelWithDebInfo\my_init.obj
+         libmysql.dir\RelWithDebInfo\my_lib.obj
+         libmysql.dir\RelWithDebInfo\my_lock.obj
+         libmysql.dir\RelWithDebInfo\my_lockmem.obj
+         libmysql.dir\RelWithDebInfo\my_malloc.obj
+         libmysql.dir\RelWithDebInfo\my_messnc.obj
+         libmysql.dir\RelWithDebInfo\my_dup.obj
+         libmysql.dir\RelWithDebInfo\my_mkdir.obj
+         libmysql.dir\RelWithDebInfo\my_mmap.obj
+         libmysql.dir\RelWithDebInfo\my_net.obj
+         libmysql.dir\RelWithDebInfo\my_once.obj
+         libmysql.dir\RelWithDebInfo\my_open.obj
+         libmysql.dir\RelWithDebInfo\my_pread.obj
+         libmysql.dir\RelWithDebInfo\my_pthread.obj
+         libmysql.dir\RelWithDebInfo\my_quick.obj
+         libmysql.dir\RelWithDebInfo\my_read.obj
+         libmysql.dir\RelWithDebInfo\my_realloc.obj
+         libmysql.dir\RelWithDebInfo\my_redel.obj
+         libmysql.dir\RelWithDebInfo\my_rename.obj
+         libmysql.dir\RelWithDebInfo\my_seek.obj
+         libmysql.dir\RelWithDebInfo\my_sleep.obj
+         libmysql.dir\RelWithDebInfo\my_static.obj
+         libmysql.dir\RelWithDebInfo\my_symlink.obj
+         libmysql.dir\RelWithDebInfo\my_symlink2.obj
+         libmysql.dir\RelWithDebInfo\my_sync.obj
+         libmysql.dir\RelWithDebInfo\my_thr_init.obj
+         libmysql.dir\RelWithDebInfo\my_wincond.obj
+         libmysql.dir\RelWithDebInfo\my_winerr.obj
+         libmysql.dir\RelWithDebInfo\my_winfile.obj
+         libmysql.dir\RelWithDebInfo\my_windac.obj
+         libmysql.dir\RelWithDebInfo\my_winthread.obj
+         libmysql.dir\RelWithDebInfo\my_write.obj
+         libmysql.dir\RelWithDebInfo\ptr_cmp.obj
+         libmysql.dir\RelWithDebInfo\queues.obj
+         libmysql.dir\RelWithDebInfo\stacktrace.obj
+         libmysql.dir\RelWithDebInfo\rijndael.obj
+         libmysql.dir\RelWithDebInfo\safemalloc.obj
+         libmysql.dir\RelWithDebInfo\sha1.obj
+         libmysql.dir\RelWithDebInfo\string.obj
+         libmysql.dir\RelWithDebInfo\thr_alarm.obj
+         libmysql.dir\RelWithDebInfo\thr_lock.obj
+         libmysql.dir\RelWithDebInfo\thr_mutex.obj
+         libmysql.dir\RelWithDebInfo\thr_rwlock.obj
+         libmysql.dir\RelWithDebInfo\tree.obj
+         libmysql.dir\RelWithDebInfo\typelib.obj
+         libmysql.dir\RelWithDebInfo\my_vle.obj
+         libmysql.dir\RelWithDebInfo\base64.obj
+         libmysql.dir\RelWithDebInfo\my_memmem.obj
+         libmysql.dir\RelWithDebInfo\my_getpagesize.obj
+         "libmysql.dir\RelWithDebInfo\lf_alloc-pin.obj"
+         libmysql.dir\RelWithDebInfo\lf_dynarray.obj
+         libmysql.dir\RelWithDebInfo\lf_hash.obj
+         libmysql.dir\RelWithDebInfo\my_atomic.obj
+         libmysql.dir\RelWithDebInfo\my_getncpus.obj
+         libmysql.dir\RelWithDebInfo\my_rnd.obj
+         libmysql.dir\RelWithDebInfo\my_uuid.obj
+         libmysql.dir\RelWithDebInfo\wqueue.obj
+         libmysql.dir\RelWithDebInfo\waiting_threads.obj
+         libmysql.dir\RelWithDebInfo\my_port.obj
+         libmysql.dir\RelWithDebInfo\bchange.obj
+         libmysql.dir\RelWithDebInfo\bcmp.obj
+         libmysql.dir\RelWithDebInfo\bfill.obj
+         libmysql.dir\RelWithDebInfo\bmove512.obj
+         libmysql.dir\RelWithDebInfo\bmove_upp.obj
+         "libmysql.dir\RelWithDebInfo\ctype-big5.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-bin.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-cp932.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-czech.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-euc_kr.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-eucjpms.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-extra.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-gb2312.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-gbk.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-latin1.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-mb.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-simple.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-sjis.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-tis620.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-uca.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-ucs2.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-ujis.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-utf8.obj"
+         "libmysql.dir\RelWithDebInfo\ctype-win1250ch.obj"
+         libmysql.dir\RelWithDebInfo\ctype.obj
+         libmysql.dir\RelWithDebInfo\decimal.obj
+         libmysql.dir\RelWithDebInfo\dtoa.obj
+         libmysql.dir\RelWithDebInfo\int2str.obj
+         libmysql.dir\RelWithDebInfo\is_prefix.obj
+         libmysql.dir\RelWithDebInfo\llstr.obj
+         libmysql.dir\RelWithDebInfo\longlong2str.obj
+         libmysql.dir\RelWithDebInfo\my_strtoll10.obj
+         libmysql.dir\RelWithDebInfo\my_vsnprintf.obj
+         libmysql.dir\RelWithDebInfo\r_strinstr.obj
+         libmysql.dir\RelWithDebInfo\str2int.obj
+         libmysql.dir\RelWithDebInfo\str_alloc.obj
+         libmysql.dir\RelWithDebInfo\strcend.obj
+         libmysql.dir\RelWithDebInfo\strend.obj
+         libmysql.dir\RelWithDebInfo\strfill.obj
+         libmysql.dir\RelWithDebInfo\strmake.obj
+         libmysql.dir\RelWithDebInfo\strmov.obj
+         libmysql.dir\RelWithDebInfo\strnmov.obj
+         libmysql.dir\RelWithDebInfo\strtol.obj
+         libmysql.dir\RelWithDebInfo\strtoll.obj
+         libmysql.dir\RelWithDebInfo\strtoul.obj
+         libmysql.dir\RelWithDebInfo\strtoull.obj
+         libmysql.dir\RelWithDebInfo\strxmov.obj
+         libmysql.dir\RelWithDebInfo\strxnmov.obj
+         libmysql.dir\RelWithDebInfo\xml.obj
+         libmysql.dir\RelWithDebInfo\my_strchr.obj
+         libmysql.dir\RelWithDebInfo\strcont.obj
+         libmysql.dir\RelWithDebInfo\strinstr.obj
+         libmysql.dir\RelWithDebInfo\strnlen.obj
+         libmysql.dir\RelWithDebInfo\strappend.obj
+         libmysql.dir\RelWithDebInfo\vio.obj
+         libmysql.dir\RelWithDebInfo\viosocket.obj
+         libmysql.dir\RelWithDebInfo\viossl.obj
+         libmysql.dir\RelWithDebInfo\viosslfactories.obj
+         libmysql.dir\RelWithDebInfo\/__/extlib/yassl/taocrypt/src/hash.cpp.obj
+         libmysql.dir\RelWithDebInfo\/__/extlib/yassl/taocrypt/src/md5.cpp.obj
+         libmysql.dir\RelWithDebInfo\/__/mysys/hash.c.obj
+         libmysql.dir\RelWithDebInfo\/__/mysys/md5.c.obj
+         libmysql.vcxproj -> E:\work\mobile\dependencies\lib\RelWithDebInfo\libmysql.lib
+       FinalizeBuildStatus:
+         Deleting file "libmysql.dir\RelWithDebInfo\libmysql.unsuccessfulbuild".
+         Touching "libmysql.dir\RelWithDebInfo\libmysql.lastbuildstate".
+     1>Done Building Project "E:\work\mobile\dependencies\src\mysql-connector-c-6.0.2\libmysql\libmysql.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:08.98

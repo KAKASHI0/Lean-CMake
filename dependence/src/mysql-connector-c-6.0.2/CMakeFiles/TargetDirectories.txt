@@ -1,0 +1,3 @@
+E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/CMakeFiles/ALL_BUILD.dir
+E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/CMakeFiles/ZERO_CHECK.dir
+E:/work/mobile/dependencies/src/mysql-connector-c-6.0.2/libmysql/CMakeFiles/libmysql.dir

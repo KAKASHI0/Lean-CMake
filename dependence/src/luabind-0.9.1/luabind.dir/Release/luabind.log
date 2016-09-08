@@ -1,0 +1,89 @@
+﻿Build started 2014/10/21 18:31:31.
+     1>Project "E:\MengTaSanGuo\dependencies\src\luabind-0.9.1\luabind.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "luabind.dir\Release\src_luabind-0.9.1.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "luabind.dir\Release\src_luabind-0.9.1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:/MengTaSanGuo/dependencies/src/luabind-0.9.1" /I"E:/MengTaSanGuo/dependencies/src/lua-5.1.4/src" /IE:/MengTaSanGuo/dependencies/include /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"luabind.dir\Release\\" /Fd"E:/MengTaSanGuo/dependencies/lib/Release/luabind.pdb" /Gd /TP /analyze- /errorReport:prompt  /Zm1000 src\class.cpp src\class_info.cpp src\class_registry.cpp src\class_rep.cpp src\create_class.cpp src\error.cpp src\exception_handler.cpp src\function.cpp src\inheritance.cpp src\link_compatibility.cpp src\object_rep.cpp src\open.cpp src\pcall.cpp src\scope.cpp src\stack_content_by_name.cpp src\weak_ref.cpp src\wrapper_base.cpp
+         {{xgTaskID=00000026}}
+         class_registry.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000027}}
+         class_rep.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000029}}
+         error.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002A}}
+         exception_handler.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000024}}
+         class.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000028}}
+         create_class.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002D}}
+         link_compatibility.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002C}}
+         inheritance.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002E}}
+         object_rep.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000030}}
+         pcall.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000031}}
+         scope.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000025}}
+         class_info.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002B}}
+         function.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000033}}
+         weak_ref.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000032}}
+         stack_content_by_name.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000034}}
+         wrapper_base.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=0000002F}}
+         open.cpp
+         {{xgTaskID=00000000}}
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\MengTaSanGuo\dependencies\lib\Release\luabind.lib" /NOLOGO luabind.dir\Release\class.obj
+         luabind.dir\Release\class_info.obj
+         luabind.dir\Release\class_registry.obj
+         luabind.dir\Release\class_rep.obj
+         luabind.dir\Release\create_class.obj
+         luabind.dir\Release\error.obj
+         luabind.dir\Release\exception_handler.obj
+         luabind.dir\Release\function.obj
+         luabind.dir\Release\inheritance.obj
+         luabind.dir\Release\link_compatibility.obj
+         luabind.dir\Release\object_rep.obj
+         luabind.dir\Release\open.obj
+         luabind.dir\Release\pcall.obj
+         luabind.dir\Release\scope.obj
+         luabind.dir\Release\stack_content_by_name.obj
+         luabind.dir\Release\weak_ref.obj
+         luabind.dir\Release\wrapper_base.obj
+         {{xgTaskID=00000035}}
+         
+         {{xgTaskID=00000000}}
+         luabind.vcxproj -> E:\MengTaSanGuo\dependencies\lib\Release\luabind.lib
+       FinalizeBuildStatus:
+         Deleting file "luabind.dir\Release\src_luabind-0.9.1.unsuccessfulbuild".
+         Touching "luabind.dir\Release\src_luabind-0.9.1.lastbuildstate".
+     1>Done Building Project "E:\MengTaSanGuo\dependencies\src\luabind-0.9.1\luabind.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.13

@@ -1,0 +1,23 @@
+#!/bin/sh
+cd CMakeFiles/Debug
+make
+cd ../..
+
+cd CMakeFiles/RelWithDebInfo
+make
+make install
+cd ../..
+
+cd src/mysql-connector-c-6.0.2
+
+cd CMakeFiles/Debug
+make
+cd ../..
+
+cd CMakeFiles/RelWithDebInfo
+make
+make install
+cd ../..
+
+cd ../..
+

@@ -1,0 +1,18 @@
+﻿Build started 2013/7/10 15:09:28.
+     1>Project "E:\work\mobile\dependencies\src\gmock-1.5.0\gmock.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "gmock.dir\RelWithDebInfo\src_gmock-1.5.0.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/work/mobile/dependencies/src/gmock-1.5.0/gtest/include" /I"E:/work/mobile/dependencies/src/gmock-1.5.0/include" /I"E:/work/mobile/dependencies/src/gmock-1.5.0" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gmock.dir\RelWithDebInfo\\" /Fd"E:/work/mobile/dependencies/lib/RelWithDebInfo/gmock.pdb" /Gd /TP /analyze- /errorReport:prompt "src\gmock-all.cc"  /Zm1000 
+         gmock-all.cc
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\work\mobile\dependencies\lib\RelWithDebInfo\gmock.lib" /NOLOGO "gmock.dir\RelWithDebInfo\gmock-all.obj"
+         gmock.vcxproj -> E:\work\mobile\dependencies\lib\RelWithDebInfo\gmock.lib
+       FinalizeBuildStatus:
+         Deleting file "gmock.dir\RelWithDebInfo\src_gmock-1.5.0.unsuccessfulbuild".
+         Touching "gmock.dir\RelWithDebInfo\src_gmock-1.5.0.lastbuildstate".
+     1>Done Building Project "E:\work\mobile\dependencies\src\gmock-1.5.0\gmock.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.71

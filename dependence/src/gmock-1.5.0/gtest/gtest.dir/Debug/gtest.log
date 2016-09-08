@@ -1,0 +1,18 @@
+﻿Build started 2013/7/10 15:06:51.
+     1>Project "E:\work\mobile\dependencies\src\gmock-1.5.0\gtest\gtest.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "gtest.dir\Debug\src_gmock-1.5.0_gtest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/work/mobile/dependencies/src/gmock-1.5.0/gtest/." /I"E:/work/mobile/dependencies/src/gmock-1.5.0/gtest/include" /I"E:/work/mobile/dependencies/src/gmock-1.5.0/gtest" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gtest.dir\Debug\\" /Fd"E:/work/mobile/dependencies/lib/Debug/gtest.pdb" /Gd /TP /analyze- /errorReport:prompt "src\gtest-all.cc"  /Zm1000 
+         gtest-all.cc
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\work\mobile\dependencies\lib\Debug\gtest.lib" /NOLOGO "gtest.dir\Debug\gtest-all.obj"
+         gtest.vcxproj -> E:\work\mobile\dependencies\lib\Debug\gtest.lib
+       FinalizeBuildStatus:
+         Deleting file "gtest.dir\Debug\src_gmock-1.5.0_gtest.unsuccessfulbuild".
+         Touching "gtest.dir\Debug\src_gmock-1.5.0_gtest.lastbuildstate".
+     1>Done Building Project "E:\work\mobile\dependencies\src\gmock-1.5.0\gtest\gtest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:53.57

@@ -1,0 +1,51 @@
+﻿Build started 2013/7/10 15:08:44.
+     1>Project "E:\work\mobile\dependencies\src\luabind-0.9.1\luabind.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "luabind.dir\RelWithDebInfo\src_luabind-0.9.1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:/work/mobile/dependencies/src/luabind-0.9.1" /I"E:/work/mobile/dependencies/src/lua-5.1.4/src" /IE:/work/mobile/dependencies/include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"luabind.dir\RelWithDebInfo\\" /Fd"E:/work/mobile/dependencies/lib/RelWithDebInfo/luabind.pdb" /Gd /TP /analyze- /errorReport:prompt src\class.cpp src\class_info.cpp src\class_registry.cpp src\class_rep.cpp src\create_class.cpp src\error.cpp src\exception_handler.cpp src\function.cpp src\inheritance.cpp src\link_compatibility.cpp src\object_rep.cpp src\open.cpp src\pcall.cpp src\scope.cpp src\stack_content_by_name.cpp src\weak_ref.cpp src\wrapper_base.cpp  /Zm1000 
+         class.cpp
+         class_info.cpp
+         class_registry.cpp
+         class_rep.cpp
+         create_class.cpp
+         error.cpp
+         exception_handler.cpp
+         function.cpp
+         inheritance.cpp
+         link_compatibility.cpp
+         object_rep.cpp
+         open.cpp
+         pcall.cpp
+         scope.cpp
+         stack_content_by_name.cpp
+         weak_ref.cpp
+         wrapper_base.cpp
+         Generating Code...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\work\mobile\dependencies\lib\RelWithDebInfo\luabind.lib" /NOLOGO luabind.dir\RelWithDebInfo\class.obj
+         luabind.dir\RelWithDebInfo\class_info.obj
+         luabind.dir\RelWithDebInfo\class_registry.obj
+         luabind.dir\RelWithDebInfo\class_rep.obj
+         luabind.dir\RelWithDebInfo\create_class.obj
+         luabind.dir\RelWithDebInfo\error.obj
+         luabind.dir\RelWithDebInfo\exception_handler.obj
+         luabind.dir\RelWithDebInfo\function.obj
+         luabind.dir\RelWithDebInfo\inheritance.obj
+         luabind.dir\RelWithDebInfo\link_compatibility.obj
+         luabind.dir\RelWithDebInfo\object_rep.obj
+         luabind.dir\RelWithDebInfo\open.obj
+         luabind.dir\RelWithDebInfo\pcall.obj
+         luabind.dir\RelWithDebInfo\scope.obj
+         luabind.dir\RelWithDebInfo\stack_content_by_name.obj
+         luabind.dir\RelWithDebInfo\weak_ref.obj
+         luabind.dir\RelWithDebInfo\wrapper_base.obj
+         luabind.vcxproj -> E:\work\mobile\dependencies\lib\RelWithDebInfo\luabind.lib
+       FinalizeBuildStatus:
+         Deleting file "luabind.dir\RelWithDebInfo\src_luabind-0.9.1.unsuccessfulbuild".
+         Touching "luabind.dir\RelWithDebInfo\src_luabind-0.9.1.lastbuildstate".
+     1>Done Building Project "E:\work\mobile\dependencies\src\luabind-0.9.1\luabind.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:43.91

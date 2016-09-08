@@ -1,0 +1,33 @@
+#!/bin/sh
+
+mkdir -p CMakeFiles/Debug
+cd CMakeFiles/Debug
+echo cmake -DCMAKE_BUILD_TYPE:STRING="Debug" ../..
+
+cmake -DCMAKE_BUILD_TYPE:STRING="Debug" ../..
+cd ../..
+
+mkdir -p CMakeFiles/RelWithDebInfo
+cd CMakeFiles/RelWithDebInfo
+echo cmake -DCMAKE_BUILD_TYPE:STRING="RelWithDebInfo" ../..
+cmake -DCMAKE_BUILD_TYPE:STRING="RelWithDebInfo" ../..
+cd ../..
+
+cd src/mysql-connector-c-6.0.2
+
+mkdir -p CMakeFiles/Debug
+cd CMakeFiles/Debug
+echo cmake -DCMAKE_BUILD_TYPE:STRING="Debug" ../..
+cmake -DCMAKE_BUILD_TYPE:STRING="Debug" ../..
+cd ../..
+
+mkdir -p CMakeFiles/RelWithDebInfo
+cd CMakeFiles/RelWithDebInfo
+echo cmake -DCMAKE_BUILD_TYPE:STRING="RelWithDebInfo" ../..
+cmake -DCMAKE_BUILD_TYPE:STRING="RelWithDebInfo" ../..
+cp include/* ../../include/
+cd ../..
+
+cd ../..
+
+
