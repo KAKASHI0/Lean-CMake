@@ -1,0 +1,91 @@
+Start testing: Sep 08 11:11 ?D1迆㊣那℅?那㊣??
+----------------------------------------------------------
+Unable to find executable: hello
+1/5 Testing: TutorialRuns
+1/5 Test: TutorialRuns
+Command: "" "25"
+Directory: G:/TestProgram/UseCMakeTest_1/Build
+"TutorialRuns" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TutorialRuns" end time: Sep 08 11:11 ?D1迆㊣那℅?那㊣??
+"TutorialRuns" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: hello
+2/5 Testing: TutorialComp25
+2/5 Test: TutorialComp25
+Command: "" "25"
+Directory: G:/TestProgram/UseCMakeTest_1/Build
+"TutorialComp25" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression not found.Regex=[25 is 1
+]
+"TutorialComp25" end time: Sep 08 11:11 ?D1迆㊣那℅?那㊣??
+"TutorialComp25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: hello
+3/5 Testing: TutorialNegative
+3/5 Test: TutorialNegative
+Command: "" "-25"
+Directory: G:/TestProgram/UseCMakeTest_1/Build
+"TutorialNegative" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression not found.Regex=[-25 is 0
+]
+"TutorialNegative" end time: Sep 08 11:11 ?D1迆㊣那℅?那㊣??
+"TutorialNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: hello
+4/5 Testing: TutorialSmall
+4/5 Test: TutorialSmall
+Command: "" "0.0001"
+Directory: G:/TestProgram/UseCMakeTest_1/Build
+"TutorialSmall" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression not found.Regex=[0.0001 is 0.01
+]
+"TutorialSmall" end time: Sep 08 11:11 ?D1迆㊣那℅?那㊣??
+"TutorialSmall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: hello
+5/5 Testing: TutorialUsage
+5/5 Test: TutorialUsage
+Command: ""
+Directory: G:/TestProgram/UseCMakeTest_1/Build
+"TutorialUsage" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression not found.Regex=[Usage:.*number
+]
+"TutorialUsage" end time: Sep 08 11:11 ?D1迆㊣那℅?那㊣??
+"TutorialUsage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 08 11:11 ?D1迆㊣那℅?那㊣??

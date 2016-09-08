@@ -1,0 +1,98 @@
+﻿生成启动时间为 2016/9/8 11:11:35。
+     1>项目“G:\TestProgram\UseCMakeTest_1\Build\RUN_TESTS.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Debug\RUN_TESTS\RUN_TESTS.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       PostBuildEvent:
+         setlocal
+         "D:\Program Files\CMake\bin\ctest.exe" --force-new-ctest-process -C Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         Test project G:/TestProgram/UseCMakeTest_1/Build
+             Start 1: TutorialRuns
+         Could not find executable hello
+         Looked in the following places:
+         hello
+         hello.exe
+         Debug/hello
+         Debug/hello.exe
+         Debug/hello
+         Debug/hello.exe
+         1/5 Test #1: TutorialRuns .....................***Not Run   0.00 sec
+         Unable to find executable: hello
+             Start 2: TutorialComp25
+         Could not find executable hello
+         Looked in the following places:
+         hello
+         hello.exe
+         Debug/hello
+         Debug/hello.exe
+         Debug/hello
+         Debug/hello.exe
+         2/5 Test #2: TutorialComp25 ...................***Not Run   0.00 sec
+             Start 3: TutorialNegative
+         Unable to find executable: hello
+         Could not find executable hello
+         Looked in the following places:
+         hello
+         hello.exe
+         Debug/hello
+         Debug/hello.exe
+         Debug/hello
+         Debug/hello.exe
+         3/5 Test #3: TutorialNegative .................***Not Run   0.00 sec
+             Start 4: TutorialSmall
+         Unable to find executable: hello
+         Could not find executable hello
+         Looked in the following places:
+         hello
+         hello.exe
+         Debug/hello
+         Debug/hello.exe
+         Debug/hello
+         Debug/hello.exe
+         4/5 Test #4: TutorialSmall ....................***Not Run   0.00 sec
+             Start 5: TutorialUsage
+         Unable to find executable: hello
+         Could not find executable hello
+         Looked in the following places:
+         hello
+         hello.exe
+         Debug/hello
+         Debug/hello.exe
+         Debug/hello
+         Debug/hello.exe
+         5/5 Test #5: TutorialUsage ....................***Not Run   0.00 sec
+         Unable to find executable: hello
+         
+         0% tests passed, 5 tests failed out of 5
+         
+         Total Test time (real) =   0.01 sec
+         
+         The following tests FAILED:
+         	  1 - TutorialRuns (Not Run)
+         	  2 - TutorialComp25 (Not Run)
+         	  3 - TutorialNegative (Not Run)
+         	  4 - TutorialSmall (Not Run)
+         	  5 - TutorialUsage (Not Run)
+         Errors while running CTest
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: 命令“setlocal
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: "D:\Program Files\CMake\bin\ctest.exe" --force-new-ctest-process -C Debug
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: :cmEnd
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: :cmErrorLevel
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: exit /b %1
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: :cmDone
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(134,5): error MSB3073: :VCEnd”已退出，代码为 8。
+     1>已完成生成项目“G:\TestProgram\UseCMakeTest_1\Build\RUN_TESTS.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.50

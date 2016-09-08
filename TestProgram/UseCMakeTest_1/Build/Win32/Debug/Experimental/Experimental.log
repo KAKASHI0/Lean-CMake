@@ -1,0 +1,61 @@
+﻿生成启动时间为 2016/9/8 11:23:20。
+     1>项目“G:\TestProgram\UseCMakeTest_1\Build\Experimental.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Debug\Experimental\Experimental.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule G:/TestProgram/UseCMakeTest_1/CMakeLists.txt
+         CMake does not need to re-run because G:\TestProgram\UseCMakeTest_1\Build\CMakeFiles\generate.stamp is up-to-date.
+            Site: FGT-PC
+            Build name: Win32-MSBuild
+         Create new tag: 20160908-0323 - Experimental
+         Configure project
+            Each . represents 1024 bytes of output
+             . Size of output: 0K
+         Build project
+            Each symbol represents 1024 bytes of output.
+            '!' represents an error and '*' a warning.
+             ...... Size of output: 5K
+            0 Compiler errors
+            0 Compiler warnings
+         Test project G:/TestProgram/UseCMakeTest_1/Build
+             Start 1: TutorialRuns
+         1/5 Test #1: TutorialRuns .....................   Passed    0.33 sec
+             Start 2: TutorialComp25
+         2/5 Test #2: TutorialComp25 ...................***Failed  Required regular expression not found.Regex=[25 is 1
+         ]  0.15 sec
+             Start 3: TutorialNegative
+         3/5 Test #3: TutorialNegative .................***Failed  Required regular expression not found.Regex=[-25 is 0
+         ]  0.06 sec
+             Start 4: TutorialSmall
+         4/5 Test #4: TutorialSmall ....................   Passed    0.06 sec
+             Start 5: TutorialUsage
+         5/5 Test #5: TutorialUsage ....................   Passed    0.06 sec
+         
+         60% tests passed, 2 tests failed out of 5
+         
+         Total Test time (real) =   0.68 sec
+         
+         The following tests FAILED:
+         	  2 - TutorialComp25 (Failed)
+         	  3 - TutorialNegative (Failed)
+         Performing coverage
+          Cannot find any coverage files. Ignoring Coverage request.
+         Submit files (using http)
+            Using HTTP submit method
+            Drop site:http://
+            Submit failed, waiting 5 seconds...
+            Retry submission: Attempt 1 of 3
+            Submit failed, waiting 5 seconds...
+            Retry submission: Attempt 2 of 3
+            Submit failed, waiting 5 seconds...
+            Retry submission: Attempt 3 of 3
+            Error when uploading file: G:/TestProgram/UseCMakeTest_1/Build/Testing/20160908-0323/Build.xml
+            Error message was: Couldn't resolve host 'http'
+            Problems when submitting via HTTP
+         Errors while running CTest
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(172,5): error MSB6006: “cmd.exe”已退出，代码为 72。
+     1>已完成生成项目“G:\TestProgram\UseCMakeTest_1\Build\Experimental.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:29.20

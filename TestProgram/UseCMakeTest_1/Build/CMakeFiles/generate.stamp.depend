@@ -1,0 +1,28 @@
+# CMake generation dependency list for this directory.
+G:/TestProgram/UseCMakeTest_1/CMakeLists.txt
+G:/TestProgram/UseCMakeTest_1/Build/CMakeFiles/3.6.0-rc1/CMakeSystem.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake
+G:/TestProgram/UseCMakeTest_1/Build/CMakeFiles/3.6.0-rc1/CMakeCCompiler.cmake
+G:/TestProgram/UseCMakeTest_1/Build/CMakeFiles/3.6.0-rc1/CMakeCXXCompiler.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CMakeGenericSystem.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/Platform/WindowsPaths.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
+G:/TestProgram/UseCMakeTest_1/Build/CMakeFiles/3.6.0-rc1/CMakeRCCompiler.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CMakeRCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCXXInformation.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/Compiler/MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake
+G:/TestProgram/UseCMakeTest_1/TutorialConfig.h.in
+D:/Program Files/CMake/share/cmake-3.6/Modules/CTest.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CTestUseLaunchers.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/CTestTargets.cmake
+D:/Program Files/CMake/share/cmake-3.6/Modules/DartConfiguration.tcl.in

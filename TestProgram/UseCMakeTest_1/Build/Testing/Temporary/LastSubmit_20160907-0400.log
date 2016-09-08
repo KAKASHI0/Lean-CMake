@@ -1,0 +1,8 @@
+Upload files:
+0	Build.xml
+1	Configure.xml
+Using drop method: http
+	Upload file: G:/TestProgram/UseCMakeTest_1/Build/Testing/20160907-0400/Build.xml to FGT-PC___Win32-MSBuild___20160907-0400-Nightly___XML___Build.xml
+   Error when uploading file: G:/TestProgram/UseCMakeTest_1/Build/Testing/20160907-0400/Build.xml
+   Error message was: Couldn't resolve host 'http'
+   Problems when submitting via HTTP
